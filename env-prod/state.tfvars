@@ -1,3 +1,3 @@
-bucket = "ch-jaikeer1"
-key    = "test1/prod/state"
+bucket = "myterraformbuvket"
+key    = "test1/state"
 region = "us-east-1"
