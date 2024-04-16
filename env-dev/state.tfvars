@@ -1,3 +1,3 @@
 bucket = "ch-jaikeer1"
-key    = "testing/dev/state"
+key    = "testing/devstate"
 region = "us-east-1"
