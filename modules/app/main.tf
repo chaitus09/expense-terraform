@@ -17,6 +17,8 @@ resource "null_resource" "ansible" {
       type     = "ssh"
       user     = var.ssh_user     //"ec2-user
       password =  var.ssh_pass                //"DevOps321"
+#      user     = jsondecode(data.vault_generic_secret.ssh.data_json).ansible_user
+#      password = jsondecode(data.vault_generic_secret.ssh.data_json).ansible_password
       host     = aws_instance.instance.public_ip
     }
 
